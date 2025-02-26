@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Survery Form</h1>
+      <p id="description">We're launching the "Behavioral Insights Survey" to study consumer decision-making across various industries. This survey aims to uncover the subconscious factors that drive purchasing behavior, brand loyalty, and customer satisfaction. Your input will help shape future marketing strategies and contribute to industry innovation.</p>
+
+      <form id="survey-form">
+      <fieldset>
+        <legend>Basic Information</legend>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Sam Smith" required>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="sam.smith@email.com" required>
+        <label for="number" id="number-label">ID:</label>
+        <input type="number" id="number" min=1000 max=9999 placeholder=1000 required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label for="age" id="age-label">Age:</label>
+        <select id="dropdown">
+          <option value="">-- Select your age --</option>
+          <option value="13-18">13-18</option>
+          <option value="19-24">19-24</option>
+          <option value="25-30">25-30</option>
+          <option value="30-35">30-35</option>
+          <option value="35+">35+</option>
+        </select>
+        <label for="gender" id="gender-label">Gender:</label>
+        <input type="radio" name="gender" value="m">M</input>
+        <input type="radio" name="gender" value="f">F</input>
+        <input type="radio" name="gender" value="unknown">Prefer not to say</input>
+      </fieldset>
+
+      <fieldset>
+        <legend>How likely are you to try a new product based on the following?</legend>
+        <input type="checkbox" value="reviews">Positive online reviews</input>
+        <input type="checkbox" value="influences">Influencer endorsements</input>
+        <input type="checkbox" value="samples">Free trials or samples</input>
+        <input type="checkbox" value="recommendations">Peer recommendations</input>
+        <input type="checkbox" value="others">Others</input>   
+      </fieldset>
+
+      <div>
+        <label for="comments" id="comments-label">Comments:</label>
+        <textarea rows=10></textarea>
+      </div>
+
+      <input type="submit" id="submit" value="Submit"></input>
+    </form>
+    </div>
+  </body>
+</html>
