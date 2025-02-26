@@ -3,10 +3,10 @@
 ## Overview
 This project is a simple survey form built using basic HTML and CSS. The main objective of this project is to experiment with various HTML tags and test their functionalities in a practical form-based layout.
 
+<p>
 <img src="screenshots/01.png" alt="Survey Form Preview 1" width="300">
-<img src="screenshots/02.png" alt="Survey Form Preview 2" width="300">
-
-
+<img src="screenshots/02.png" alt="Survey Form Preview 2" width="300">  
+</p>
 
 ## Features
 - Uses a wide range of HTML tags including `<input>`, `<select>`, `<textarea>`, `<fieldset>`, `<legend>`, `<label>`, and more.
